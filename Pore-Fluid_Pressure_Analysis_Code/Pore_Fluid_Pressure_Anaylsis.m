@@ -78,9 +78,9 @@ Sc_ani = 0.1*[0.0014    0.0001   -0.0003         0         0         0
           0         0         0         0    9.9982         0
           0         0         0         0         0    0.0013];
 % dry rock modulus tensor
-Ld_anp = phi_p*(I-Sp_ani)^(-1);% orientation average rule, Dvorak (2012)
+Ld_anp = phi_p*(I-Sp_ani)^(-1);
 Ld_anc = phi_c*(I-Sc_ani)^(-1);
-Ld_anp_oa = oa(Ld_anp);
+Ld_anp_oa = oa(Ld_anp); % orientation average rule, Dvorak (2012)
 Ld_anc_oa = oa(Ld_anc);
 Ld=L0-L0*(Ld_anp_oa+Ld_anc_oa)*((1-phi)*I+Ld_anp_oa+Ld_anc_oa)^(-1); 
 
