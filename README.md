@@ -7,3 +7,4 @@ Pore fluid pressure is affected by seismic wave propagation and also constrained
 The Variations of P-wave modulus (M) with the relative fluid pressures of crack (σ_c^r) and stiff pore (σ_p^r) at different porosities (por) are shown below:
 ![image](https://github.com/user-attachments/assets/3de8a1c5-341a-46d8-9a56-6031c263b632)
 
+For any inquiries, discussions, or citation requests, please feel free to contact Pu Wang via email at wpprospect1991@gmail.com.
