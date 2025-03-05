@@ -1,5 +1,5 @@
 function [aX]=oa(C)
-%orientation average rule, Dvorak (2012,p26)
+%orientation average rule, Dvorak (2012)
 B=(C(1,1)+C(1,2)+C(1,3)+C(2,1)+C(2,2)+C(2,3)+C(3,1)+C(3,2)+C(3,3))/3;
 S=(C(4,4)+C(5,5)+C(6,6)+C(1,1)+C(2,2)+C(3,3)-B)/5;
 aX=[B/3+2*S/3,B/3-S/3,B/3-S/3,0,0,0;
