@@ -3,12 +3,12 @@ clc;
 clear;
 %%
 %moduli
-K_gr=56*10^9;
-mu_gr=33*10^9;
-K_f=3.8100*10^8;
+K_gr=56*10^9; % bulk modulus of rock matrix
+mu_gr=33*10^9; % shear modulus of rock matrix
+K_f=3.8100*10^8; % bulk modulus of fluid
 
 %aspect ratio 
-r_p=0.9999;%aspect ratio of pore
+r_p=0.9999;%aspect ratio of stiff pore
 r_c=0.0001;%aspect ratio of crack
 
 for i = 1:4
